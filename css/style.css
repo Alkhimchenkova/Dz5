@@ -1,0 +1,42 @@
+body{
+    background-color: #f2fff4;
+}
+ul.menu{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+.menu li{
+    display: inline;
+}
+ul.menu a{
+    background-image: url(../img/square1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    padding: 7px 3px 7px 3px;
+
+    width: 105px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial,SansSerif;
+    margin-left: 10px;
+    overflow: visible;
+}
+ul.menu a:hover{
+    background-image:url("../img/square2.jpg");
+}
+.main{
+    display: grid;
+    grid-template-columns: 8fr 8fr 8fr 8fr;
+    grid-column-gap: 10px;
+}
+.news {
+    background-image: url(../img/bg_news.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+    padding: 2em 1em 1em 2em;
+}
